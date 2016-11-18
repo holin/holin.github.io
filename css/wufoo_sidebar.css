@@ -1,0 +1,124 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : Example Custom CSS : DinoMaster!
+ URL : http://wufoo.com
+
+ Last Updated : April 1, 2011
+
+- - - - - - - - - - - - - - - - - - - - -
+
+INSTRUCTIONS
+1. Copy / Paste all or portions of these
+CSS rules into "custom.css".
+
+2. Experiment and play.
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* - - - Default - - - */
+
+/* Logo */
+#logo a {background-image:url('https://s3.consumersadvocate.org/a/images/logo-white-v2.png'); min-height:0; height:40px}
+* html #logo a {/* IE6 png Support */
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://s3.consumersadvocate.org/a/images/logo-white-v2.png", sizingMethod="crop");
+}
+
+/* Backgrounds */
+html{background-image:none;background-color:#1e93e2}
+#logo{background-image:none;background-color:#1e93e2}
+#container{background:#FFFFFF}
+
+.wufoo .instruct {
+    background-color:#F5F5F5;
+    position: static;
+    margin: 5px auto;
+}
+
+/* Borders */
+#container{border:0 solid #cccccc}
+.wufoo .info{border-bottom:1px dotted #CCCCCC}
+.wufoo .instruct{border:1px solid #e6e6e6}
+
+/* Typography */
+.wufoo .info h2{font-size:160%;font-family:inherit;color:#000000}
+.wufoo .info div{font-size:95%;font-family:inherit;color:#444444}
+.wufoo .section h3{font-size:110%;font-family:inherit;background:#FFFFFF;color:#000000}
+.wufoo .section div{font-size:85%;font-family:inherit;color:#444444}
+.wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:inherit;color:#444444}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#444444}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:#333333}
+.wufoo label.choice{color:#444444}
+.wufoo .instruct{font-size:80%;font-family:inherit;color:#444444
+}
+
+
+.pgStyle1 .selected var {
+    border: 1px solid #1e93e2;
+}
+
+.pgStyle1 .selected var, .pgStyle2 var, .pgStyle2 var em {
+    background: #1e93e2;
+    color: white;
+}
+
+.submit {
+  color: #ffffff;
+  background-color: #ff7735;
+  border-color: #fb651c;
+  height: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+button.link {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+button.link:hover {
+    color: #438ac7;
+}
+
+.wufoo li.focused {
+    background-color: transparent;
+}
+
+
+/* for center */
+.wufoo li {
+    width: 100%;
+    text-align: center;
+}
+
+form li.paging-context {
+  margin-bottom: 20px;
+}
+
+form li.buttons {
+  margin-top: 10px;
+}
+
+input.checkbox, input.radio,
+form li div label, form li span label,
+label.choice {
+    display: inline;
+}
+
+label.choice {
+    margin: 0;
+}
+.mult-choice .choice__text {
+    min-width: 100px;
+    display: inline-block !important;
+    text-align: left;
+    float: left;
+}
+
+form li div span, form li span {
+    /*float: none;*/
+    /*display: inline;*/
+}
+
